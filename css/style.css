@@ -15,7 +15,7 @@ column-count: 2;
       }
       h1{
         color:#A54C00;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: poppins;
         font-weight: 150;
       }
   h2{
@@ -222,5 +222,44 @@ width: 20%;
   justify-content: space-between;
   padding: 1rem;
 }
-
-  
+.foundation{
+    width: 100%;
+    overflow: hidden;
+    max-height: 65rem;
+}
+  .subhead{
+    background-color: #e8ac77;
+    color:#ffffff;
+    padding: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  }
+  h5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  font-family: poppins;
+  color:#0b2457;
+  font-weight: lighter;
+  line-height: 2.5rem;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-family: poppins;
+    color:#0b2457;
+    font-weight: lighter;
+    line-height: 2.5rem;
+    color:#A54C00;
+    hover:#E1883C
+  }
