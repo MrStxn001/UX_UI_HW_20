@@ -103,7 +103,7 @@ width: 20%;
   } */
   .button {
     border: none;
-    background-color:#E1883C;
+    background-color:#0b2457;
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -114,7 +114,7 @@ width: 20%;
     cursor: pointer;
   }
   button:hover {
-    background-color:#A54C00;
+    background-color:#06132d
   }
   ul.Footer {
     column-count: 3;
@@ -132,10 +132,6 @@ width: 20%;
   a {
     color:#32312f;            /* sets the text color */
     text-decoration: none;   /* removes the underline */
-  }
-  a:hover { 
-    background-color:#A54C00;
-    color: white;
   }
   .workGrid {
     max-width: 95%;
