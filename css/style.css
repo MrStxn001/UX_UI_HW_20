@@ -85,7 +85,7 @@ width: 20%;
       ul.navbar li a {
         display: block;
         color: #A54C00;
-        text-align: center;
+        text-align:justify;
         padding: 5px 30px;
         text-decoration: none;
       }
@@ -178,7 +178,6 @@ width: 20%;
       display: block; /* Change display of li elements to block */
       margin-bottom: 10px; /* Add some spacing between columns */
   }
-}
   .resumeImg{
     opacity: 0;
     transition: opacity 1s ease-in-out;
@@ -189,6 +188,7 @@ width: 20%;
     display: flex;
   justify-content: center;
   }
+}
 
   .card {
   border: 1px solid #ccc;
@@ -246,22 +246,48 @@ width: 20%;
       text-align: justify;
       font-size: 25px;
       font-family: Poppins;
-      color: #0b2457;
+      color:#32312f;
       font-weight: lighter;
       line-height: 2.5rem;
     }
+    h6{
+         font-size: 25px;
+         font-family: Poppins;
+         color: #0b2457;
+         font-weight: lighter;
+         line-height: 2.5rem;
+         padding:3rem;
+       }
+       .click{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        color: #0b2457;
+        font-size: 20px;
+        font-family: poppins;
+       }
   h4{
     display: flex;
     justify-content:baseline;
     align-items:normal;
    text-align:justify;
-    font-size: 25px;
+    font-size: 30px;
     font-family: poppins;
     color:#0b2457;
-    font-weight: lighter;
+    font-weight:200;
     line-height: 2.5rem;
-    color:#A54C00;
     hover:#E1883C
+  }
+  h7{
+    display: flex;
+    justify-content:baseline;
+    align-items:normal;
+   text-align:justify;
+    font-size: 27px;
+    font-family: poppins;
+    color:#0b2457;
+    font-weight:100;
+    line-height: 2.5rem;
   }
   .img-fluid{
 padding:2rem;
@@ -287,3 +313,35 @@ padding-left: 4rem;
       align-items: normal;
       text-align:start;
   }
+.row{
+  padding: 5rem 0;
+}
+.container.text-center {
+  padding: 0 2rem;
+  max-width: 100%;
+}
+.image-containers {
+  width: 100%;
+  padding: 1.5rem 0;
+  overflow: hidden;
+}
+.image-containers img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.foundationcontent{
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+ul.painpoint{
+  text-align: justify;
+  align-items: justify;
+  justify-content: justify;
+  line-height: 3rem;
+  font-family:poppins;
+  font-weight: 25px;
+  padding: 3rem 0;
+}
