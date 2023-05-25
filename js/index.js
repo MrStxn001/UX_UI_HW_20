@@ -1,19 +1,3 @@
-console.log("Your index.js file is loaded correctly!");
-
-$(document).ready(function(){
-  $("p").click();
-
-  $("p").click(function(){
-    $(this).hide();
-  });
-
-  
-})
-// $("p").click();
-
-//   $("p").click(function(){
-//     $(this).hide();
-//   });
   const resumeImg = document.querySelector('.resumeImg');
 
 function fadeIn() {

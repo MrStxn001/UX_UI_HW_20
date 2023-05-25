@@ -341,3 +341,9 @@ ul.painpoint{
   font-weight: 25px;
   padding: 3rem 0;
 }
+.casebody{
+  max-width: 80%;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+}
